@@ -22,7 +22,7 @@ export class Estudante {
 
     public exibirInformacoes(){
         console.log(`Nome do aluno: ${this.nome}`);
-        console.log(`Notas do aluno: ${this.nota1}, ${this.nota2}`)
-        console.log(`Média do aluno: ${this.calcularMedia()}`)
+        console.log(`Notas do aluno: ${this.nota1}, ${this.nota2}`);
+        console.log(`Média do aluno: ${this.calcularMedia()}`);
     }
 }
